@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #171a21;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logoimg{
+    height: 150px;
+    width: 150px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.name p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-shadow: 1px 1px #fe4902, 
+    2px 2px #fe4902, 
+    3px 3px #fe4902;
+}
+
+.name p:hover{
+    text-shadow: 1px 1px #c93900, 
+    2px 2px #c93900,
+    3px 3px #c93900;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(182, 182, 182);
+}
+
+.rocklogo{
+    height: 150px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.rocklogo:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+    transform: rotate(45deg); 
+}
+
+.paperlogo{
+    height: 150px;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+.paperlogo:hover{
+    opacity: 0.7;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.scissorslogo{
+    height: 150px;
+    cursor: pointer;
+    margin-top: 20px;
+    transform: rotate(45deg);
+}
+
+.scissorslogo:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+    transform: rotate(0deg);
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.result p{
+    color: white;
+}
+
+#computerChoice{
+    font-size: large;
+}
+
+#result{
+    margin-left: 50px;
+    font-size: large;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+}
+
+.score p{
+    color: white;
+}
+
+#com{
+    font-size: large;
+    color: red;
+}
+
+#player{
+    margin-left: 50px;
+    font-size: large;
+    color: greenyellow;
+}
+
+.res{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(80, 154, 251);
+    border: none;
+    font-size: large;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    transition: 0.3s;
+    box-shadow: 7px 5px 7px 0px black;
+    color: white;
+    background-color: rgb(18, 110, 230);;
+}
+
+
+
