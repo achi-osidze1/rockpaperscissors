@@ -1,0 +1,151 @@
+body{
+    background-color: #171a21;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+
+::-webkit-scrollbar-track{
+    background: #171a21;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(91, 91, 91);
+    border-radius: 5px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logoimg{
+    height: 120px;
+    width: 120px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+.name p{
+    color: white;
+    font-size: x-large;
+    color: darkturquoise;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(182, 182, 182);
+}
+
+.rocklogo{
+    height: 150px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.rocklogo:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+    transform: rotate(45deg); 
+}
+
+.paperlogo{
+    height: 150px;
+    margin-top: 220px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.paperlogo:hover{
+    opacity: 0.7;
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.scissorslogo{
+    height: 150px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 30px;
+    transform: rotate(45deg);
+}
+
+.scissorslogo:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+    transform: rotate(0deg);
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.result p{
+    color: white;
+}
+
+#computerChoice{
+    font-size: large;
+}
+
+#result{
+    margin-left: 50px;
+    font-size: large;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+}
+
+.score p{
+    color: white;
+}
+
+#player{
+    font-size: large;
+    color: greenyellow;
+}
+
+#com{
+    margin-left: 50px;
+    font-size: large;
+    color: red;
+}
+
+.res{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(80, 154, 251);
+    font-size: large;
+    cursor: pointer;;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover{
+    transition: 0.3s;
+    box-shadow: 7px 5px 7px 0px black;
+    color: white;
+    background-color: rgb(18, 110, 230);;
+}
+
+
+
